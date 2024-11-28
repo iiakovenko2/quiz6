@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>შემაჯამებელი წერა 6</title>
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    <link rel="stylesheet" href="styles.css">
+    
+	<style>
+
+	</style>
+
+</head>
+
+<body>
+	<header>
+		<h1 id="header">შემაჯამებელი წერა 6</h1>
+	</header>
+	<div id="timer">დარჩენილია 45 წუთი და 60 წამი</div> <!-- Timer display -->
+	<main>
+		<form id="quizForm">
+			<!-- Question 1 -->
+			<div class="question" id="question1"> <strong> (1) 1. </strong> <br> ორი ნატურალური რიცხვის ჯამია 111. ქვემოთ 
+				ჩამოთვლილთაგან რომლის ტოლი შეიძლება იყოს ამ ორი რიცხვის უდიდესი საერთო გამყოფი?  
+				<div> </div>
+				<div>
+					<input type="radio" name="q1" value="ა" id="q1a"><label for="q1a"> ა) \( 2\)
+					</label><br>
+					<input type="radio" name="q1" value="ბ" id="q1b"><label for="q1b"> ბ) \( 3\)
+					</label><br>
+					<input type="radio" name="q1" value="გ" id="q1c"><label for="q1c"> გ) \( 5\)
+					</label><br>
+					<input type="radio" name="q1" value="დ" id="q1d"><label for="q1d"> დ) \( 7\)
+					</label>
+				</div>
+			</div>
+
+			<!-- Question 2 -->
+			<div class="question" id="question2">
+				<strong> (1) 2. </strong> <br>
+				\( a\)  და \(b\) რიცხვები აკმაყოფილებენ შემდეგ პირობებს: 
+				\(-9\leq a\leq8\) \( \hspace{0.2cm}\)და \( \hspace{0.1cm}\) \(-3\leq b\leq4\). იპოვეთ \( (a-b)(a+b) \)
+				გამოსახულების უდიდესი შესაძლო მნიშვნელობა.
+				<div> </div>
+				<div>
+					<input type="radio" name="q2" value="ა" id="q2a"><label for="q2a"> ა) \(65\) </label><br>
+					<input type="radio" name="q2" value="ბ" id="q2b"><label for="q2b"> ბ) \(72\) </label><br>
+					<input type="radio" name="q2" value="გ" id="q2c"><label for="q2c"> გ) \(81\) </label><br>
+					<input type="radio" name="q2" value="დ" id="q2d"><label for="q2d"> დ) \(90\) </label>
+				</div>
+			</div>
+
+			<!-- Question 3 -->
+			<div class="question" id="question3">
+				<strong> (1) 3. </strong> <br>
+				4 ერთნაირი ბურგერი 32%-ით ძვირია 1 ჰეფი-მილზე. რამდენი 
+				პროცენტით ძვირი იქნება 10 ასეთივე ბურგერი 3 ერთნაირ ჰეფი-მილზე?
+                
+				<div> </div>
+				<div>
+					<input type="radio" name="q3" value="ა" id="q3a"><label for="q3a"> ა) 30% </label><br>
+					<input type="radio" name="q3" value="ბ" id="q3b"><label for="q3b">ბ) 20% </label><br>
+					<input type="radio" name="q3" value="გ" id="q3c"><label for="q3c">გ) 15% </label><br>
+					<input type="radio" name="q3" value="დ" id="q3d"><label for="q3d">დ) 10% </label>
+				</div>
+			</div>
+
+			<!-- Question 4 -->
+			<div class="question" id="question4">
+				<strong> (1) 4. </strong> <br>
+				უჯრებიან ფურცელზე, რომლის თითოეული უჯრა 1 ერთეულის ტოლი
+				გვერდის მქონე კვადრატს წარმოადგენს, დახაზულია სამკუთხედი. 
+				სურათის მიხედვით იპოვეთ სამკუთხედის ფართობი. <br>
+				<img class="image" id="image11" src="triangle_grid.png" alt="octagon" /img>
+
+				
+				<div> </div>
+				<div>
+					<input type="radio" name="q4" value="ა" id="q4a"><label for="q4a">ა) \( 12\) </label><br>
+					<input type="radio" name="q4" value="ბ" id="q4b"><label for="q4b">ბ) \( 10\) </label><br>
+					<input type="radio" name="q4" value="გ" id="q4c"><label for="q4c">გ) \( 8\)  </label><br>
+					<input type="radio" name="q4" value="დ" id="q4d"><label for="q4d">დ) \( 9\) </label>
+				</div>
+			</div>
+
+			<!-- Question 5 -->
+			<div class="question" id="question5">
+				<strong> (1) 5. </strong> <br>
+				 სამკუთხედის გვერდები ისე შეეფარდება ერთმანეთს, როგორც
+				  6 : 7 : 11. იპოვეთ ამ სამკუთხედის უდიდესი კუთხის კოსინუსი.    <br> 
+				<div> </div>
+				<div>
+					<input type="radio" name="q5" value="ა" id="q5a"><label for="q5a">ა) \( -\frac{4}{7}\) </label><br>
+					<input type="radio" name="q5" value="ბ" id="q5b"><label for="q5b">ბ) \( -\frac{3}{7}\)</label><br>
+					<input type="radio" name="q5" value="გ" id="q5c"><label for="q5c">გ) \( \frac{7}{13}\) </label><br>
+					<input type="radio" name="q5" value="დ" id="q5d"><label for="q5d">დ) \( \frac{2}{5}\)</label>
+				</div>
+			</div>
+
+			<!-- Question 6 -->
+			<div class="question" id="question6">
+				<strong> (1) 6. </strong> <br>
+				ქვემოთ ჩამოთვლილი რიცხვებიდან რომელი ეკუთვნის \( (\sqrt[3]{220}; \log_2{129} ) \)  შუალედს?
+				<div> </div>
+				<div>
+					<input type="radio" name="q6" value="ა" id="q6a"><label for="q6a">ა) 6  </label><br>
+					<input type="radio" name="q6" value="ბ" id="q6b"><label for="q6b">ბ) 7  </label><br>
+					<input type="radio" name="q6" value="გ" id="q6c"><label for="q6c">გ) 8  </label><br>
+					<input type="radio" name="q6" value="დ" id="q6d"><label for="q6d">დ)9  </label>
+				</div>
+			</div>
+
+			<!-- Question 7 -->
+			<div class="question" id="question7">
+				<strong> (1) 7. </strong> <br>
+				გეომეტრიულ პროგრესიაში \(b_{20} : b_{15}=\sqrt{3}\). რის ტოლია \(b_{40} : b_{25}\) ?
+				<div> </div>
+				<div>
+					<input type="radio" name="q7" value="ა" id="q7a"><label for="q7a">ა) \(9\) </label><br>
+					<input type="radio" name="q7" value="ბ" id="q7b"><label for="q7b">ბ) \(6\sqrt{3}\)</label><br>
+					<input type="radio" name="q7" value="გ" id="q7c"><label for="q7c">გ) \(3\)</label><br>
+					<input type="radio" name="q7" value="დ" id="q7d"><label for="q7d">დ) \(3\sqrt{3}\)</label>
+				</div>
+			</div>
+
+			<!-- Question 8 -->
+			<div class="question" id="question8">
+				<strong> (1) 8. </strong> <br>
+				იპოვეთ კუთხე \( \vec{a}=(1;\sqrt{3})\) და \( \vec{b}=(1; -\sqrt{3}) \) ვექტორებს შორის.
+				<div> </div>
+				<div>
+					<input type="radio" name="q8" value="ა" id="q8a"><label for="q8a">ა) \( 180° \)</label><br>
+					<input type="radio" name="q8" value="ბ" id="q8b"><label for="q8b">ბ) \( 60° \)</label><br>
+					<input type="radio" name="q8" value="გ" id="q8c"><label for="q8c">გ) \( 120°\)</label><br>
+					<input type="radio" name="q8" value="დ" id="q8d"><label for="q8d">დ) \( 150°\)</label>
+				</div>
+			</div>
+
+			<!-- Question 9 -->
+			<div class="question" id="question9">
+				<strong> (1) 9. </strong> <br>
+				\(ABCDEF\) წესიერი ექვსკუთხედის ფართობი \(6\)-ის ტოლია. 
+				რას უდრის \(ACE\) სამკუთხედის ფართობი?   
+				<div>
+					<input type="radio" name="q9" value="ა" id="q9a"><label for="q9a">ა) \( 3\) </label><br>
+					<input type="radio" name="q9" value="ბ" id="q9b"><label for="q9b">ბ) \( 6(\sqrt{3}-1) \) </label><br>
+					<input type="radio" name="q9" value="გ" id="q9c"><label for="q9c">გ) \( 3(\frac{\sqrt{3}}{2}+1) \) </label><br>
+					<input type="radio" name="q9" value="დ" id="q9d"><label for="q9d">დ) \(4\) </label>
+				</div>
+			</div>
+
+			<!-- Question 10 -->
+			<div class="question" id="question10">
+				<strong> (1) 10. </strong> <br>
+				\(ABC\) სამკუთხედში \(\angle{A}=30^{\circ}, \) \(\angle{B}=45^{\circ}, \)
+				 და \(AC+BC=18(1+\sqrt{2}).\) რას უდრის \(BC\) გვერდის სიგრძე?
+				<div> </div>
+				<div>
+					<input type="radio" name="q10" value="ა" id="q10a"><label for="q10a">ა) \( 9 \) </label><br>
+					<input type="radio" name="q10" value="ბ" id="q10b"><label for="q10b">ბ) \( 9\sqrt{2}\)</label><br>
+					<input type="radio" name="q10" value="გ" id="q10c"><label for="q10c">გ) \( 18\)</label><br>
+					<input type="radio" name="q10" value="დ" id="q10d"><label for="q10d">დ) \( 18\sqrt{2} \)</label>
+				</div>
+			</div>
+
+			<!-- Question 11 -->
+			<div class="question" id="question11"> 
+				
+				<strong> (1) 11. </strong> <br>
+				სურათზე გამოსახული ზომების მიხედვით, იპოვეთ \( \vec{u}\) და \( \vec{v}\) 
+				ვექტორების ჯამის კოორდინატები. <br> <img id="image11" src="vectors.png" alt="vectors" img/>
+				
+				<div id="question11_options"> 
+					<input type="radio" name="q11" value="ა" id="q11a"><label for="q11a">ა) \( (-1;7) \)</label> <br>  
+					<input type="radio" name="q11" value="ბ" id="q11b"><label for="q11b">ბ) \( (-1;9) \)</label><br>
+					<input type="radio" name="q11" value="გ" id="q11c"><label for="q11c">გ) \( (10;1) \)</label><br>
+					<input type="radio" name="q11" value="დ" id="q11d"><label for="q11d">დ) \( (10;7) \)</label> 
+				</div>
+			</div>
+
+			<!-- Question 12 -->
+			<div class="question" id="question12">
+				<strong> (1) 12. </strong> <br> 
+				6-სა და 15-ს შორის ჩასმულია ექვსი რიცხვი ისე, რომ მათ მოცემულ რიცხვებთან ერთად 
+				არითმეტიკული პროგრესია შეადგინეს. იპოვეთ ამ პროგრესიის სხვაობა.
+				<div>
+					<input type="radio" name="q12" value="ა" id="q12a"><label for="q12a">ა) \(\frac{9}{10}  \)</label><br>
+					<input type="radio" name="q12" value="ბ" id="q12b"><label for="q12b">ბ) \( \frac{8}{7} \)</label><br>
+					<input type="radio" name="q12" value="გ" id="q12c"><label for="q12c">გ) \( \frac{9}{7} \)</label><br>
+					<input type="radio" name="q12" value="დ" id="q12d"><label for="q12d">დ) \( \frac{3}{10}\)</label>
+				</div>
+			</div>
+			<!-- Question 13 -->
+			<div class="question" id="question13">
+				<strong> (1) 13. </strong> <br>
+				იპოვეთ \(ABC\) სამკუთხედის ფართობი, თუ ამ სამკუთხედის გვერდების შუაწერტილების შეერთებით მიღებული 
+				\(PQR\) სამკუთხედის ფართობია 8.
+					<div>
+						<input type="radio" name="q13" value="ა" id="q13a"><label for="q13a">ა) \(  16 \)</label><br>
+						<input type="radio" name="q13" value="ბ" id="q13b"><label for="q13b">ბ) \( 20 \)</label><br>
+						<input type="radio" name="q13" value="გ" id="q13c"><label for="q13c">გ) \(  24 \)</label><br>
+						<input type="radio" name="q13" value="დ" id="q13d"><label for="q13d">დ) \( 32 \)</label>
+					</div>
+			</div>
+			<!-- Question 14 -->
+			<div class="question" id="question14">
+				<strong> (1) 14. </strong> <br>
+				საათის ისრების სიგრძეებია 6სმ და 4სმ. რის ტოლია ისრების ბოლოებს შორის მანძილი 16:30 სთ.ზე ?
+				<div>
+                    <input type="radio" name="q14" value="ა" id="q14a"><label for="q14a">ა) \( \sqrt{52-24\sqrt{2}} \) სმ</label><br>
+					<input type="radio" name="q14" value="ბ" id="q14b"><label for="q14b">ბ) \( 2\sqrt{3}\) სმ</label><br>
+                    <input type="radio" name="q14" value="გ" id="q14c"><label for="q14c">გ) \( 4\sqrt{2}\) სმ </label><br>
+					<input type="radio" name="q14" value="დ" id="q14d"><label for="q14d">დ)\( \sqrt{13-6\sqrt{2}}\) სმ</label>
+				</div>
+			</div>
+
+			<!-- Question 15 -->
+			<div class="question" id="question15">
+				<strong> (1) 15. </strong> <br>
+                იპოვეთ \(x+2y-z\), თუ \(2^x=7\), \(4^y=\frac{3}{7}\) და \( (\frac{1}{2})^z = \frac{1}{3}\)
+				<div> </div>
+				<div>
+					<input type="radio" name="q15" value="ა" id="q15a"><label for="q15a"> ა) \( 2\) </label><br>
+					<input type="radio" name="q15" value="ბ" id="q15b"><label for="q15b"> ბ) \( 1 \) </label><br>
+					<input type="radio" name="q15" value="გ" id="q15c"><label for="q15c"> გ) \( 0 \) </label><br>
+					<input type="radio" name="q15" value="დ" id="q15d"><label for="q15d"> დ) \( -1 \) </label>
+				
+				</div>
+			</div>
+			</div>
+            <button id="prev" onclick="prevQuestion()" style="display:none;">წინა</button>
+            <button id="next" onclick="nextQuestion()">შემდეგი</button> <br>
+			<button type="button" id="submit-button" onclick="submitQuiz()">შემოწმება</button>
+		</form>
+    <span id="nav_quest">კითხვაზე გადასვლა</span>
+<div  id="footer-navigation" class="footer-navigation">
+    
+</div>
+		<div id="result-section" style="display: none;">
+    <div id="result"></div>
+    <div id="result-table"></div>
+</div>
+		</div>
+	</main>
+	<footer>
+
+	</footer>
+	<script src="script.js"></script>
+</body>
+
+</html>
