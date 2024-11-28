@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const correctAnswers = {
         q1: "ბ", 
-        q2: "გ", 
+        q2: "ბ", 
         q3: "დ", 
         q4: "დ", 
         q5: "ბ",
